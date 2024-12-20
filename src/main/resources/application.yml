@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    default: local
+  output:
+    ansi:
+      enabled: always
+  application:
+    name: bootAdminServer
+
+server:
+  port: 8090
