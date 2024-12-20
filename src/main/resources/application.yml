@@ -6,6 +6,17 @@ spring:
       enabled: always
   application:
     name: bootAdminServer
+#Spring Boot Admin 계정
+  security:
+    user:
+      name: admin
+      password: admin1
 
+# 서비기동 포트
 server:
   port: 8090
+
+# 로그레벨
+logging:
+  level:
+    root: INFO

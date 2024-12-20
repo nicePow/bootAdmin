@@ -35,6 +35,9 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+	/* Spring Boot Amdin Security : 로그인을 위해서 필요 */
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 dependencyManagement {
