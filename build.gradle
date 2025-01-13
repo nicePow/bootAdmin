@@ -22,7 +22,6 @@ configurations {
 repositories {
 	mavenCentral()
 }
-
 ext {
 	set('springBootAdminVersion', "3.4.1")
 }
